@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../Font/Montserrat/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Montserrat-Bold';
+    src: url('../Font/Montserrat/Montserrat-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Montserrat-Italic';
+    src: url('../Font/Montserrat/Montserrat-Italic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Montserrat-SemiBold';
+    src: url('../Font/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
+}
+
+body
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-height: 100%;
+	max-height: 100%;
+}
+
+h1
+{
+	font-family: "Montserrat";
+}
+
+h2
+{
+	font-family: "Montserrat-Bold";
+}
+
+p
+{
+	font-family: "Montserrat-Regular";
+}
+
+label
+{
+	font-family: "Montserrat-Regular";
+}
+
+input
+{
+	font-family: "Montserrat-Regular";
+}
+
+form
+{
+	font-family: "Montserrat-Regular";
+}
+
+#menu
+{
+	display: flex;
+	min-width: 100%;
+	flex-direction: row;
+	justify-content: space-around;
+	border-bottom: solid;
+	padding-bottom: 1%;
+}
+
+.Element
+{
+	margin: auto;
+	font-family: "Montserrat-Bold";
+}
+
+.SelectedElement
+{
+	margin: auto;
+	background-color: rgb(255, 240, 181);
+	font-family: "Montserrat-Bold";
+}
+
+#accueil_body
+{
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#tel
+{
+	text-align: center;
+	font-family: "Montserrat-Italic";
+}
+
+table
+{
+	margin: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-collapse: collapse;
+	min-width: 75%;
+	font-family: "Montserrat-Regular";
+}
+
+td
+{
+	border-style: solid;
+}
+
+.tableTitle
+{
+	font-family: "Montserrat-SemiBold";
+	text-align: center;
+}
+
+.cell
+{
+	text-align: center;
+}
